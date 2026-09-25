@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANTASY FOOTBALL VR</title>
+    <meta name="description" content="FANTASY FOOTBALL VR - football in virtual reality.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header class="navbar">
+        <a class="brand" href="#home">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="FANTASY FOOTBALL VR logo">
+            <span>FANTASY FOOTBALL VR</span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#game">The Game</a>
+            <a href="#community">Community</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO</p>
+                <h1>FANTASY<br><span>FOOTBALL VR</span></h1>
+                <p class="hero-text">
+                    Step into the world of virtual football.
+                    Follow the game, connect with the community,
+                    and experience football in VR.
+                </p>
+
+                <div class="buttons">
+                    <a class="button primary" href="#game">EXPLORE THE GAME</a>
+                    <a class="button secondary"
+                       href="https://www.youtube.com/@fantasyfootballvr"
+                       target="_blank" rel="noopener noreferrer">
+                        WATCH ON YOUTUBE
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-logo">
+                <div class="glow"></div>
+                <img src="{{ url_for('static', filename='logo.png') }}" alt="FANTASY FOOTBALL VR">
+            </div>
+        </section>
+
+        <section id="game" class="section">
+            <p class="section-label">THE GAME</p>
+            <h2>FOOTBALL.<br><span>REIMAGINED.</span></h2>
+            <p class="section-intro">
+                FANTASY FOOTBALL VR brings the excitement of football into
+                virtual reality. This site is your place to keep up with
+                the game and the FVR community.
+            </p>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="icon">VR</div>
+                    <h3>IMMERSIVE</h3>
+                    <p>Experience football from inside a virtual world.</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">⚽</div>
+                    <h3>FOOTBALL</h3>
+                    <p>A football experience built around the sport you love.</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">FVR</div>
+                    <h3>COMMUNITY</h3>
+                    <p>Stay connected with the latest FVR content and news.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="community" class="community section">
+            <div>
+                <p class="section-label">FOLLOW FVR</p>
+                <h2>JOIN THE<br><span>COMMUNITY.</span></h2>
+                <p class="section-intro">
+                    Follow FANTASY FOOTBALL VR for videos, clips,
+                    updates and more.
+                </p>
+            </div>
+
+            <div class="socials">
+                <a class="social-card" href="https://www.youtube.com/@fantasyfootballvr"
+                   target="_blank" rel="noopener noreferrer">
+                    <span class="social-name">YouTube</span>
+                    <span class="social-handle">@fantasyfootballvr</span>
+                    <span class="arrow">↗</span>
+                </a>
+
+                <a class="social-card" href="https://www.tiktok.com/@fantasyfootballvr"
+                   target="_blank" rel="noopener noreferrer">
+                    <span class="social-name">TikTok</span>
+                    <span class="social-handle">@fantasyfootballvr</span>
+                    <span class="arrow">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <p class="section-label">GET IN TOUCH</p>
+            <h2>CONTACT<br><span>FVR.</span></h2>
+            <p class="section-intro">
+                Have a question, idea or business enquiry?
+                Get in touch with the FVR team.
+            </p>
+
+            <a class="email-button" href="mailto:ffvresports1@gmail.com">
+                <span>ffvresports1@gmail.com</span>
+                <span>✉</span>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="">
+        <div>
+            <strong>FANTASY FOOTBALL VR</strong>
+            <p>Fantasy Football VR</p>
+        </div>
+        <div class="footer-links">
+            <a href="https://www.youtube.com/@fantasyfootballvr" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.tiktok.com/@fantasyfootballvr" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="mailto:ffvresports1@gmail.com">Email</a>
+        </div>
+        <p class="copyright">© 2026 FANTASY FOOTBALL VR</p>
+    </footer>
+
+</body>
+</html>
